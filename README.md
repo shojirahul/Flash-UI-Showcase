@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI UI Showcase
+
+A Next.js application designed to showcase generative UI components with full fidelity code, live previews, and dynamic management features.
+
+## Features
+
+-   **Dynamic Snippet Management**: Add and delete custom HTML/CSS snippets directly from the UI.
+-   **Live Preview**: Real-time rendering of code snippets using an isolated iframe renderer.
+-   **Responsive Design**: Fully responsive grid layout and modals using Tailwind CSS.
+-   **Smooth Animations**: Powered by `framer-motion` for shared layout transitions and modal effects.
+-   **Local Persistence**: Custom snippets are saved to your browser's local storage.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Adding a Snippet
+1.  Click the **+** button in the header.
+2.  Enter a title and category.
+3.  Paste your HTML/CSS code.
+4.  Observe the live preview and click **Save**.
 
-## Learn More
+### Deleting a Snippet
+1.  Click on any snippet card to open the **Expanded View**.
+2.  Click the **Trash** icon in the top right.
+3.  Confirm the deletion in the modal.
 
-To learn more about Next.js, take a look at the following resources:
+## Walkthrough
+For a visual guide of the features, see [WALKTHROUGH.md](WALKTHROUGH.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+-   **Framework**: Next.js 14 (App Router)
+-   **Styling**: Tailwind CSS
+-   **Animations**: Framer Motion
+-   **Icons**: Lucide React

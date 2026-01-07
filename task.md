@@ -1,0 +1,40 @@
+# Task: Next.js 15 Framer Motion Showcase
+
+- [ ] Project Initialization
+    - [x] Initialize Next.js 15 app with TypeScript, Tailwind CSS, App Router <!-- id: 0 -->
+    - [/] Install Framer Motion <!-- id: 1 -->
+    - [x] Configure global styles (black theme, fonts) <!-- id: 2 -->
+- [ ] Data & Types
+    - [x] Define `Snippet` interface <!-- id: 3 -->
+    - [x] Create sample data file with provided snippets <!-- id: 4 -->
+- [ ] Components
+    - [x] Create `SnippetCard` component (Grid View) <!-- id: 5 -->
+    - [x] Create `ExpandedView` component (Selected State) <!-- id: 6 -->
+    - [x] Create `IframeRenderer` component <!-- id: 7 -->
+    - [x] Implement Main Page (Grid Layout + AnimatePresence) <!-- id: 8 -->
+- [x] Verification
+    - [x] Verify animations (layoutId, spring physics) <!-- id: 9 -->
+    - [x] Verify iframe interactivity and scaling <!-- id: 10 -->
+    - [x] Verify responsive design <!-- id: 11 -->
+- [x] Implement Code View
+    - [x] Add View Code/Preview toggle to ExpandedView <!-- id: 12 -->
+    - [x] Implement Code rendering with syntax highlighting style <!-- id: 13 -->
+    - [x] Implement Copy to Clipboard functionality <!-- id: 14 -->
+- [x] Refinement
+    - [x] Clean up Tectonic Interface snippet (remove UI chrome) <!-- id: 15 -->
+- [x] Add Bioluminescent Snippet
+    - [x] Update data.ts with new snippet <!-- id: 16 -->
+    - [x] Verify slider interactivity <!-- id: 17 -->
+- [x] Add Liquid Metal Snippet
+    - [x] Update data.ts with new snippet <!-- id: 18 -->
+    - [x] Verify liquid effect <!-- id: 19 -->
+- [x] Add Obscured Chromatic Drifting Snippet
+    - [x] Update data.ts with new snippet <!-- id: 20 -->
+- [x] Add Prismatic Caustic Scaffolding Snippet
+    - [x] Update data.ts with new snippet <!-- id: 21 -->
+- [x] Add Refractive Caustic Dilation Snippet
+    - [x] Update data.ts with new snippet <!-- id: 22 -->
+- [x] Add Pneumatic Vitreous Expansion Snippet
+    - [x] Update data.ts with new snippet <!-- id: 23 -->
+- [x] Restore "Prismatic Caustic Scaffolding" Snippet
+```
